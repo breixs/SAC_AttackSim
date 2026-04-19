@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   attacker:
     build: ./attacker
@@ -23,8 +21,13 @@ services:
     image: jasonish/suricata:latest
     container_name: ids_node
     network_mode: "service:victim1" # Monitorizeaza traficul care intra in Victima 1
+    cap_add:
+      - NET_ADMIN
+      - SYS_NICE
+    command: -i eth0
     volumes:
       - ./ids/logs:/var/log/suricata
+      - ./ids/local.rules:/etc/suricata/local.rules
 
 networks:
   network_1:

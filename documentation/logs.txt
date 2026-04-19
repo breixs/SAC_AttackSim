@@ -1,0 +1,4 @@
+tail -f ids/logs/fast.log
+04/19/2026-14:03:44.723221  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 172.18.0.3:8 -> 172.18.0.4:9
+04/19/2026-14:03:44.724905  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 172.18.0.4:0 -> 172.18.0.3:9
+

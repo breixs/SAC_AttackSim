@@ -1,0 +1,12 @@
+04/19/2026-14:03:44.723221  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 172.18.0.3:8 -> 172.18.0.4:9
+04/19/2026-14:03:44.724905  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 172.18.0.4:0 -> 172.18.0.3:9
+04/19/2026-14:46:32.015026  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 172.18.0.2:8 -> 172.18.0.3:9
+04/19/2026-14:46:32.015094  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 172.18.0.3:0 -> 172.18.0.2:9
+04/19/2026-14:49:54.135552  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 172.18.0.2:8 -> 172.18.0.3:9
+04/19/2026-14:49:54.135570  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 172.18.0.3:0 -> 172.18.0.2:9
+04/19/2026-15:04:10.185078  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 172.18.0.2:8 -> 172.18.0.3:9
+04/19/2026-15:04:10.185131  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 172.18.0.3:0 -> 172.18.0.2:9
+04/19/2026-15:17:43.401693  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 172.18.0.2:8 -> 172.18.0.3:9
+04/19/2026-15:17:43.401757  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 172.18.0.3:0 -> 172.18.0.2:9
+04/19/2026-15:29:38.950586  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 172.18.0.2:8 -> 172.18.0.3:9
+04/19/2026-15:29:38.950642  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 172.18.0.3:0 -> 172.18.0.2:9

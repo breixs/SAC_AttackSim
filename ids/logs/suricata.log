@@ -1,0 +1,237 @@
+[1 - Suricata-Main] 2026-04-19 13:33:51 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-04-19 13:33:51 Info: cpu: CPUs/cores online: 3
+[1 - Suricata-Main] 2026-04-19 13:33:51 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-04-19 13:33:51 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-04-19 13:33:51 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-04-19 13:33:51 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-04-19 13:33:51 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-04-19 13:33:51 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-04-19 13:33:51 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-04-19 13:33:51 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+[1 - Suricata-Main] 2026-04-19 13:33:51 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2026-04-19 13:33:51 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-04-19 13:33:51 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-04-19 13:33:51 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-04-19 13:33:51 Info: runmodes: eth0: creating 3 threads
+[21 - W#01-eth0] 2026-04-19 13:33:51 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-04-19 13:33:51 Notice: threads: Threads created -> W: 3 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-04-19 13:44:50 Notice: detect: rule reload starting
+[1 - Suricata-Main] 2026-04-19 13:44:50 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+[1 - Suricata-Main] 2026-04-19 13:44:50 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2026-04-19 13:44:50 Info: threshold-config: tenant id 0: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-04-19 13:44:50 Info: detect: tenant id 0: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-04-19 13:44:50 Notice: detect: rule reload complete
+[1 - Suricata-Main] 2026-04-19 13:45:06 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2026-04-19 13:45:06 Info: suricata: time elapsed 674.948s
+[1 - Suricata-Main] 2026-04-19 13:45:06 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2026-04-19 13:45:06 Notice: device: eth0: packets: 6399, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2026-04-19 13:45:07 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-04-19 13:45:07 Info: cpu: CPUs/cores online: 3
+[1 - Suricata-Main] 2026-04-19 13:45:07 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-04-19 13:45:07 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-04-19 13:45:07 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-04-19 13:45:07 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-04-19 13:45:07 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-04-19 13:45:07 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-04-19 13:45:07 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-04-19 13:45:27 Info: detect: 1 rule files processed. 49691 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-04-19 13:45:28 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-04-19 13:45:28 Info: detect: 49696 signatures processed. 1283 are IP-only rules, 4484 are inspecting packet payload, 43693 inspect application layer, 110 are decoder event only
+[1 - Suricata-Main] 2026-04-19 13:45:29 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-04-19 13:45:29 Info: runmodes: eth0: creating 3 threads
+[21 - W#01-eth0] 2026-04-19 13:45:29 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-04-19 13:45:29 Notice: threads: Threads created -> W: 3 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-04-19 13:49:26 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2026-04-19 13:49:27 Info: suricata: time elapsed 238.057s
+[1 - Suricata-Main] 2026-04-19 13:49:28 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2026-04-19 13:49:29 Notice: device: eth0: packets: 8, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2026-04-19 13:50:07 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-04-19 13:50:07 Info: cpu: CPUs/cores online: 3
+[1 - Suricata-Main] 2026-04-19 13:50:07 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-04-19 13:50:07 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-04-19 13:50:07 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-04-19 13:50:07 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-04-19 13:50:07 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-04-19 13:50:07 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-04-19 13:50:07 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-04-19 13:50:07 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+[1 - Suricata-Main] 2026-04-19 13:50:07 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2026-04-19 13:50:07 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-04-19 13:50:07 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-04-19 13:50:07 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-04-19 13:50:07 Info: runmodes: eth0: creating 3 threads
+[21 - W#01-eth0] 2026-04-19 13:50:08 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-04-19 13:50:08 Notice: threads: Threads created -> W: 3 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-04-19 13:52:49 Notice: detect: rule reload starting
+[1 - Suricata-Main] 2026-04-19 13:52:49 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+[1 - Suricata-Main] 2026-04-19 13:52:49 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2026-04-19 13:52:49 Info: threshold-config: tenant id 0: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-04-19 13:52:49 Info: detect: tenant id 0: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-04-19 13:52:49 Notice: detect: rule reload complete
+[1 - Suricata-Main] 2026-04-19 13:53:26 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2026-04-19 13:53:27 Info: suricata: time elapsed 199.656s
+[1 - Suricata-Main] 2026-04-19 13:53:27 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2026-04-19 13:53:27 Notice: device: eth0: packets: 604, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2026-04-19 13:53:28 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-04-19 13:53:28 Info: cpu: CPUs/cores online: 3
+[1 - Suricata-Main] 2026-04-19 13:53:28 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-04-19 13:53:28 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-04-19 13:53:28 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-04-19 13:53:28 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-04-19 13:53:28 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-04-19 13:53:28 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-04-19 13:53:28 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-04-19 13:53:49 Info: detect: 1 rule files processed. 49691 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-04-19 13:53:49 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-04-19 13:53:50 Info: detect: 49696 signatures processed. 1283 are IP-only rules, 4484 are inspecting packet payload, 43693 inspect application layer, 110 are decoder event only
+[1 - Suricata-Main] 2026-04-19 13:53:51 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-04-19 13:53:51 Info: runmodes: eth0: creating 3 threads
+[21 - W#01-eth0] 2026-04-19 13:53:51 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-04-19 13:53:51 Notice: threads: Threads created -> W: 3 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-04-19 13:56:29 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2026-04-19 13:56:30 Info: suricata: time elapsed 159.150s
+[1 - Suricata-Main] 2026-04-19 13:56:32 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2026-04-19 13:56:32 Notice: device: eth0: packets: 13, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2026-04-19 13:56:58 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-04-19 13:56:58 Info: cpu: CPUs/cores online: 3
+[1 - Suricata-Main] 2026-04-19 13:56:58 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-04-19 13:56:58 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-04-19 13:56:58 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-04-19 13:56:58 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-04-19 13:56:58 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-04-19 13:56:58 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-04-19 13:56:58 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-04-19 13:57:21 Info: detect: 1 rule files processed. 49691 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-04-19 13:57:21 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-04-19 13:57:21 Info: detect: 49696 signatures processed. 1283 are IP-only rules, 4484 are inspecting packet payload, 43693 inspect application layer, 110 are decoder event only
+[1 - Suricata-Main] 2026-04-19 13:57:23 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-04-19 13:57:23 Info: runmodes: eth0: creating 3 threads
+[22 - W#01-eth0] 2026-04-19 13:57:23 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-04-19 13:57:23 Notice: threads: Threads created -> W: 3 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-04-19 14:30:55 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2026-04-19 14:30:56 Info: suricata: time elapsed 2012.744s
+[1 - Suricata-Main] 2026-04-19 14:30:56 Info: counters: Alerts: 2
+[1 - Suricata-Main] 2026-04-19 14:30:56 Notice: device: eth0: packets: 12476, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2026-04-19 14:33:55 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-04-19 14:33:55 Info: cpu: CPUs/cores online: 3
+[1 - Suricata-Main] 2026-04-19 14:33:55 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-04-19 14:33:55 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-04-19 14:33:55 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-04-19 14:33:55 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-04-19 14:33:55 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-04-19 14:33:55 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-04-19 14:33:55 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-04-19 14:33:55 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+[1 - Suricata-Main] 2026-04-19 14:33:55 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2026-04-19 14:33:55 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-04-19 14:33:55 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-04-19 14:33:55 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-04-19 14:33:55 Info: runmodes: eth0: creating 3 threads
+[21 - W#01-eth0] 2026-04-19 14:33:55 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-04-19 14:33:55 Notice: threads: Threads created -> W: 3 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-04-19 14:43:36 Notice: detect: rule reload starting
+[1 - Suricata-Main] 2026-04-19 14:43:36 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+[1 - Suricata-Main] 2026-04-19 14:43:36 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2026-04-19 14:43:36 Info: threshold-config: tenant id 0: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-04-19 14:43:36 Info: detect: tenant id 0: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2026-04-19 14:43:36 Notice: detect: rule reload complete
+[1 - Suricata-Main] 2026-04-19 14:45:24 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2026-04-19 14:45:25 Info: suricata: time elapsed 689.713s
+[1 - Suricata-Main] 2026-04-19 14:45:26 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2026-04-19 14:45:26 Notice: device: eth0: packets: 8938, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2026-04-19 14:45:26 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-04-19 14:45:26 Info: cpu: CPUs/cores online: 3
+[1 - Suricata-Main] 2026-04-19 14:45:26 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-04-19 14:45:26 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-04-19 14:45:27 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-04-19 14:45:27 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-04-19 14:45:27 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-04-19 14:45:27 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-04-19 14:45:27 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-04-19 14:45:53 Info: detect: 1 rule files processed. 49691 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-04-19 14:45:53 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-04-19 14:45:53 Info: detect: 49696 signatures processed. 1283 are IP-only rules, 4484 are inspecting packet payload, 43693 inspect application layer, 110 are decoder event only
+[1 - Suricata-Main] 2026-04-19 14:45:54 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-04-19 14:45:54 Info: runmodes: eth0: creating 3 threads
+[22 - W#01-eth0] 2026-04-19 14:45:54 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-04-19 14:45:54 Notice: threads: Threads created -> W: 3 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-04-19 15:00:12 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2026-04-19 15:00:13 Info: suricata: time elapsed 858.747s
+[1 - Suricata-Main] 2026-04-19 15:00:14 Info: counters: Alerts: 4
+[1 - Suricata-Main] 2026-04-19 15:00:14 Notice: device: eth0: packets: 17472, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2026-04-19 15:00:17 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-04-19 15:00:17 Info: cpu: CPUs/cores online: 3
+[1 - Suricata-Main] 2026-04-19 15:00:17 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-04-19 15:00:17 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-04-19 15:00:17 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-04-19 15:00:17 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-04-19 15:00:17 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-04-19 15:00:17 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-04-19 15:00:17 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-04-19 15:01:01 Info: detect: 1 rule files processed. 49691 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-04-19 15:01:01 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-04-19 15:01:02 Info: detect: 49696 signatures processed. 1283 are IP-only rules, 4484 are inspecting packet payload, 43693 inspect application layer, 110 are decoder event only
+[1 - Suricata-Main] 2026-04-19 15:01:04 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-04-19 15:01:04 Info: runmodes: eth0: creating 3 threads
+[33 - W#01-eth0] 2026-04-19 15:01:04 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-04-19 15:01:04 Notice: threads: Threads created -> W: 3 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-04-19 15:01:19 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2026-04-19 15:01:20 Info: suricata: time elapsed 16.077s
+[1 - Suricata-Main] 2026-04-19 15:01:20 Info: counters: Alerts: 0
+[1 - Suricata-Main] 2026-04-19 15:01:20 Notice: device: eth0: packets: 0, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2026-04-19 15:01:21 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-04-19 15:01:21 Info: cpu: CPUs/cores online: 3
+[1 - Suricata-Main] 2026-04-19 15:01:21 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-04-19 15:01:21 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-04-19 15:01:21 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-04-19 15:01:21 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-04-19 15:01:21 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-04-19 15:01:21 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-04-19 15:01:21 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-04-19 15:01:46 Info: detect: 1 rule files processed. 49691 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-04-19 15:01:46 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-04-19 15:01:46 Info: detect: 49696 signatures processed. 1283 are IP-only rules, 4484 are inspecting packet payload, 43693 inspect application layer, 110 are decoder event only
+[1 - Suricata-Main] 2026-04-19 15:01:48 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-04-19 15:01:48 Info: runmodes: eth0: creating 3 threads
+[21 - W#01-eth0] 2026-04-19 15:01:48 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-04-19 15:01:48 Notice: threads: Threads created -> W: 3 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-04-19 15:11:33 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2026-04-19 15:11:33 Info: suricata: time elapsed 584.831s
+[1 - Suricata-Main] 2026-04-19 15:11:33 Info: counters: Alerts: 2
+[1 - Suricata-Main] 2026-04-19 15:11:34 Notice: device: eth0: packets: 4516, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2026-04-19 15:11:34 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-04-19 15:11:34 Info: cpu: CPUs/cores online: 3
+[1 - Suricata-Main] 2026-04-19 15:11:34 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-04-19 15:11:34 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-04-19 15:11:34 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-04-19 15:11:34 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-04-19 15:11:34 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-04-19 15:11:34 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-04-19 15:11:34 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-04-19 15:11:54 Info: detect: 1 rule files processed. 49691 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-04-19 15:11:54 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-04-19 15:11:54 Info: detect: 49696 signatures processed. 1283 are IP-only rules, 4484 are inspecting packet payload, 43693 inspect application layer, 110 are decoder event only
+[1 - Suricata-Main] 2026-04-19 15:11:56 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-04-19 15:11:56 Info: runmodes: eth0: creating 3 threads
+[21 - W#01-eth0] 2026-04-19 15:11:56 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-04-19 15:11:57 Notice: threads: Threads created -> W: 3 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2026-04-19 15:26:17 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2026-04-19 15:26:18 Info: suricata: time elapsed 861.832s
+[1 - Suricata-Main] 2026-04-19 15:26:19 Info: counters: Alerts: 2
+[1 - Suricata-Main] 2026-04-19 15:26:20 Notice: device: eth0: packets: 2543, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2026-04-19 15:26:20 Notice: suricata: This is Suricata version 8.0.4 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2026-04-19 15:26:20 Info: cpu: CPUs/cores online: 3
+[1 - Suricata-Main] 2026-04-19 15:26:20 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2026-04-19 15:26:20 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2026-04-19 15:26:20 Info: privs: dropped the caps for main thread
+[1 - Suricata-Main] 2026-04-19 15:26:20 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2026-04-19 15:26:20 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2026-04-19 15:26:20 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2026-04-19 15:26:20 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2026-04-19 15:26:39 Info: detect: 1 rule files processed. 49691 rules successfully loaded, 0 rules failed, 0 rules skipped
+[1 - Suricata-Main] 2026-04-19 15:26:39 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2026-04-19 15:26:39 Info: detect: 49696 signatures processed. 1283 are IP-only rules, 4484 are inspecting packet payload, 43693 inspect application layer, 110 are decoder event only
+[1 - Suricata-Main] 2026-04-19 15:26:41 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2026-04-19 15:26:41 Info: runmodes: eth0: creating 3 threads
+[20 - W#01-eth0] 2026-04-19 15:26:41 Info: ioctl: eth0: MTU 1500
+[1 - Suricata-Main] 2026-04-19 15:26:41 Notice: threads: Threads created -> W: 3 FM: 1 FR: 1   Engine started.
