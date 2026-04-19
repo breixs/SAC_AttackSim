@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  attacker:
+    build: ./attacker
+    container_name: attacker_node
+    networks:
+      - network_1
+
+  victim1:
+    build: ./victim1
+    container_name: victim_1
+    networks:
+      - network_1
+
+  victim2:
+    build: ./victim2
+    container_name: victim_2
+    networks:
+      - network_1
+
+  ids:
+    image: jasonish/suricata:latest
+    container_name: ids_node
+    network_mode: "service:victim1" # Monitorizeaza traficul care intra in Victima 1
+    volumes:
+      - ./ids/logs:/var/log/suricata
+
+networks:
+  network_1:
+    driver: bridge
