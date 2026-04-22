@@ -10,3 +10,48 @@
 04/19/2026-15:17:43.401757  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 172.18.0.3:0 -> 172.18.0.2:9
 04/19/2026-15:29:38.950586  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 172.18.0.2:8 -> 172.18.0.3:9
 04/19/2026-15:29:38.950642  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 172.18.0.3:0 -> 172.18.0.2:9
+04/22/2026-14:45:31.248710  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.10:8 -> 10.0.0.20:9
+04/22/2026-14:45:31.248732  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.20:0 -> 10.0.0.10:9
+04/22/2026-14:57:38.051869  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.10:8 -> 10.0.0.20:9
+04/22/2026-14:57:38.051895  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.20:0 -> 10.0.0.10:9
+04/22/2026-15:00:28.592857  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.10:8 -> 10.0.0.20:9
+04/22/2026-15:00:28.592880  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.20:0 -> 10.0.0.10:9
+04/22/2026-15:11:31.079945  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.10:8 -> 10.0.0.20:9
+04/22/2026-15:11:31.079986  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.20:0 -> 10.0.0.10:9
+04/22/2026-15:14:11.888431  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.10:8 -> 10.0.0.20:9
+04/22/2026-15:14:11.888458  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.20:0 -> 10.0.0.10:9
+04/22/2026-15:14:24.671116  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.10:8 -> 10.0.0.20:9
+04/22/2026-15:14:24.671153  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.20:0 -> 10.0.0.10:9
+04/22/2026-15:36:15.031785  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.10:8 -> 10.0.0.20:9
+04/22/2026-15:36:15.031829  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.20:0 -> 10.0.0.10:9
+04/22/2026-15:36:25.801379  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.10:8 -> 10.0.0.20:9
+04/22/2026-15:36:25.801417  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.20:0 -> 10.0.0.10:9
+04/22/2026-15:41:17.972895  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.10:57648 -> 10.0.0.20:22
+04/22/2026-15:41:17.972895  [**] [1:2228000:1] SURICATA SSH invalid banner [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.10:57648 -> 10.0.0.20:22
+04/22/2026-15:41:17.973351  [**] [1:2228000:1] SURICATA SSH invalid banner [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.20:22 -> 10.0.0.10:57648
+04/22/2026-15:41:20.157980  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.10:57724 -> 10.0.0.20:22
+04/22/2026-15:41:20.157980  [**] [1:2228000:1] SURICATA SSH invalid banner [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.10:57724 -> 10.0.0.20:22
+04/22/2026-15:41:20.158885  [**] [1:2228000:1] SURICATA SSH invalid banner [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.20:22 -> 10.0.0.10:57724
+04/22/2026-15:41:32.596540  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.10:52566 -> 10.0.0.20:22
+04/22/2026-15:41:32.596540  [**] [1:2228000:1] SURICATA SSH invalid banner [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.10:52566 -> 10.0.0.20:22
+04/22/2026-15:41:32.596582  [**] [1:2228000:1] SURICATA SSH invalid banner [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.20:22 -> 10.0.0.10:52566
+04/22/2026-15:41:32.758051  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.10:52636 -> 10.0.0.20:22
+04/22/2026-15:41:32.758051  [**] [1:2228000:1] SURICATA SSH invalid banner [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.10:52636 -> 10.0.0.20:22
+04/22/2026-15:41:32.758057  [**] [1:2228000:1] SURICATA SSH invalid banner [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.20:22 -> 10.0.0.10:52636
+04/22/2026-16:23:46.571246  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.10:8 -> 10.0.0.20:9
+04/22/2026-16:23:46.571304  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.20:0 -> 10.0.0.10:9
+04/22/2026-16:27:34.586925  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:60436 -> 185.125.190.82:80
+04/22/2026-16:27:34.639252  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:60436 -> 185.125.190.82:80
+04/22/2026-16:27:34.786152  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:33560 -> 91.189.91.83:80
+04/22/2026-16:27:34.832801  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:60436 -> 185.125.190.82:80
+04/22/2026-16:28:02.508547  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:50260 -> 91.189.92.22:80
+04/22/2026-16:28:02.682957  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:50260 -> 91.189.92.22:80
+04/22/2026-16:28:02.682957  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:50260 -> 91.189.92.22:80
+04/22/2026-16:28:02.682957  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:50260 -> 91.189.92.22:80
+04/22/2026-16:28:02.682957  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:50260 -> 91.189.92.22:80
+04/22/2026-16:28:02.682957  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:50260 -> 91.189.92.22:80
+04/22/2026-16:28:02.682957  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:50260 -> 91.189.92.22:80
+04/22/2026-16:28:02.682957  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:50260 -> 91.189.92.22:80
+04/22/2026-16:28:02.682957  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:50260 -> 91.189.92.22:80
+04/22/2026-16:28:02.682957  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:50260 -> 91.189.92.22:80
+04/22/2026-16:28:02.682957  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:50260 -> 91.189.92.22:80

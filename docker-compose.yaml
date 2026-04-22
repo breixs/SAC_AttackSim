@@ -3,24 +3,29 @@ services:
     build: ./attacker
     container_name: attacker_node
     networks:
-      - network_1
+      external_net:
+        ipv4_address: 10.0.0.10
 
   victim1:
     build: ./victim1
     container_name: victim_1
     networks:
-      - network_1
+      external_net:
+        ipv4_address: 10.0.0.20
+      internal_net:
+        ipv4_address: 192.168.10.20
 
   victim2:
     build: ./victim2
     container_name: victim_2
     networks:
-      - network_1
+      internal_net:
+        ipv4_address: 192.168.10.30
 
   ids:
     image: jasonish/suricata:latest
     container_name: ids_node
-    network_mode: "service:victim1" # Monitorizeaza traficul care intra in Victima 1
+    network_mode: "service:victim1" 
     cap_add:
       - NET_ADMIN
       - SYS_NICE
@@ -30,5 +35,13 @@ services:
       - ./ids/local.rules:/etc/suricata/local.rules
 
 networks:
-  network_1:
+  external_net:
     driver: bridge
+    ipam:
+      config:
+        - subnet: 10.0.0.0/24
+  internal_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.10.0/24

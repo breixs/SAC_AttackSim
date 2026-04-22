@@ -1,8 +1,15 @@
 FROM ubuntu:latest
 RUN apt-get update && apt-get install -y openssh-server iputils-ping
 RUN mkdir /var/run/sshd
-# Cream un user cu parola slaba: user1 / password123
-RUN useradd -m -s /bin/bash user1 && echo 'user1:password123' | chpasswd
-# Adaugam un indiciu pentru Lateral Movement (parola Victimei 2)
-RUN echo "Parola catre serverul intern (Victima 2) este: secret456" > /home/user1/note.txt
+# user cu parola slaba
+RUN useradd -m -s /bin/bash user1 && echo 'user1:alexander' | chpasswd
+# indiciu pentru parola Victimei 2
+RUN mkdir -p /home/user1/network_endpoints/
+RUN echo "IP = 192.168.10.30\nUSER = admin_intern\n" > /home/user1/network_endpoints/server_central.txt
+
+# --- PARTEA NOUĂ: Structura complexă de fișiere ---
+# Creăm un director "ascuns" de configurare sistemf
+
+RUN chmod u+s /usr/bin/find
+
 CMD ["/usr/sbin/sshd", "-D"]
