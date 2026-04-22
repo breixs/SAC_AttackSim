@@ -5,10 +5,8 @@ RUN mkdir /var/run/sshd
 RUN useradd -m -s /bin/bash user1 && echo 'user1:alexander' | chpasswd
 # indiciu pentru parola Victimei 2
 RUN mkdir -p /home/user1/network_endpoints/
-RUN echo "IP = 192.168.10.30\nUSER = admin_intern\n" > /home/user1/network_endpoints/server_central.txt
-
-# --- PARTEA NOUĂ: Structura complexă de fișiere ---
-# Creăm un director "ascuns" de configurare sistemf
+RUN echo "For higher security, this information was moved to the root folder!!" > /home/user1/network_endpoints/server_central.txt
+RUN echo "IP_INTERN=192.168.10.30\nUSER=admin_intern\nPASS=SecretPass1990" > /root/credentiale_interne.txt
 
 RUN chmod u+s /usr/bin/find
 
