@@ -21,6 +21,13 @@ services:
     networks:
       internal_net:
         ipv4_address: 192.168.10.30
+        
+  final_victim:
+    build: ./final_victim
+    container_name: final_victim
+    networks:
+      internal_net:
+        ipv4_address: 192.168.10.40
 
   ids:
     image: jasonish/suricata:latest
@@ -29,7 +36,7 @@ services:
     cap_add:
       - NET_ADMIN
       - SYS_NICE
-    command: -i eth0
+    command: -i eth0 -i eth1
     volumes:
       - ./ids/logs:/var/log/suricata
       - ./ids/local.rules:/etc/suricata/local.rules

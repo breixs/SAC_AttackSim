@@ -7,16 +7,10 @@ RUN apt-get update && apt-get install -y \
     iputils-ping \
     netcat-traditional \
     ssh \
-    wordlists
+    wordlists \
+    proxychains4 \
+    curl
 
-RUN gzip -d /usr/share/wordlists/rockyou.txt.gz
+RUN gzip -d /usr/share/wordlists/rockyou.txt.gz || true
 
-CMD ["tail", "-f", "/dev/null"]FROM kalilinux/kali-rolling
-RUN apt-get update && apt-get install -y \
-    nmap \
-    hydra \
-    metasploit-framework \
-    iputils-ping \
-    netcat-traditional \
-    ssh
 CMD ["tail", "-f", "/dev/null"]

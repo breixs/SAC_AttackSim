@@ -55,3 +55,6 @@
 04/22/2026-16:28:02.682957  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:50260 -> 91.189.92.22:80
 04/22/2026-16:28:02.682957  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:50260 -> 91.189.92.22:80
 04/22/2026-16:28:02.682957  [**] [1:2013504:6] ET INFO GNU/Linux APT User-Agent Outbound likely related to package management [**] [Classification: Not Suspicious Traffic] [Priority: 3] {TCP} 10.0.0.20:50260 -> 91.189.92.22:80
+04/23/2026-13:36:34.624816  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.10:8 -> 10.0.0.20:9
+04/23/2026-13:36:34.626666  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.20:0 -> 10.0.0.10:9
+04/23/2026-13:55:59.226693  [**] [1:2034636:2] ET INFO Python SimpleHTTP ServerBanner [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.10.40:80 -> 192.168.10.20:38036
