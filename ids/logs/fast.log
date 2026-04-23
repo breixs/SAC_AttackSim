@@ -58,3 +58,14 @@
 04/23/2026-13:36:34.624816  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.10:8 -> 10.0.0.20:9
 04/23/2026-13:36:34.626666  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.20:0 -> 10.0.0.10:9
 04/23/2026-13:55:59.226693  [**] [1:2034636:2] ET INFO Python SimpleHTTP ServerBanner [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.10.40:80 -> 192.168.10.20:38036
+04/23/2026-14:25:54.147830  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.10:8 -> 10.0.0.20:9
+04/23/2026-14:25:54.147966  [**] [1:2200025:2] SURICATA ICMPv4 unknown code [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {ICMP} 10.0.0.20:0 -> 10.0.0.10:9
+04/23/2026-14:26:08.299128  [**] [1:2260000:1] SURICATA Applayer Mismatch protocol both directions [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.10:54098 -> 10.0.0.20:22
+04/23/2026-14:31:23.002345  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.10:33972 -> 10.0.0.20:22
+04/23/2026-14:31:23.002345  [**] [1:2228000:1] SURICATA SSH invalid banner [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.10:33972 -> 10.0.0.20:22
+04/23/2026-14:31:23.002356  [**] [1:2228000:1] SURICATA SSH invalid banner [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.20:22 -> 10.0.0.10:33972
+04/23/2026-14:31:41.677825  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.10:58988 -> 10.0.0.20:22
+04/23/2026-14:31:41.677825  [**] [1:2228000:1] SURICATA SSH invalid banner [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.10:58988 -> 10.0.0.20:22
+04/23/2026-14:31:41.677834  [**] [1:2228000:1] SURICATA SSH invalid banner [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.0.20:22 -> 10.0.0.10:58988
+04/23/2026-14:37:48.106105  [**] [1:2034636:2] ET INFO Python SimpleHTTP ServerBanner [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.10.40:80 -> 192.168.10.20:56126
+04/23/2026-14:44:07.558157  [**] [1:2034636:2] ET INFO Python SimpleHTTP ServerBanner [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.10.40:80 -> 192.168.10.20:39490
