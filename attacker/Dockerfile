@@ -1,4 +1,4 @@
-FROM kalilinux/kali-rolling
+FROM kalilinux/kali-last-release
 
 RUN apt-get update && apt-get install -y \
     nmap \

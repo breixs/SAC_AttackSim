@@ -1,6 +1,7 @@
-FROM ubuntu:latest
+FROM ubuntu:22.04
 RUN apt-get update && apt-get install -y openssh-server iputils-ping
-RUN mkdir /var/run/sshd
+RUN mkdir -p /var/run/sshd
+
 # user cu parola slaba
 RUN useradd -m -s /bin/bash user1 && echo 'user1:alexander' | chpasswd
 # indiciu pentru parola Victimei 2 si accesul la victima finala
