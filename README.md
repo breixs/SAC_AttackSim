@@ -26,7 +26,7 @@ Se recomandă ca proiectul să fie rulat într-un mediu bazat pe Linux, cu Docke
 4. Actualizați sistemul de detecție a intruziunilor Suricata, folosind comanda `sudo docker exec -it ids_node suricata-update`.
 5. După ce ați actualizat Suricata, rulați comanda `sudo docker restart ids_node`, pentru a se actualiza regulile.
 6. Așteptați câteva secunde, și consultați output-ul comenzii `sudo docker logs ids_node`. Dacă în output nu se regăsește linia „Engine Started”, rulați din nou comanda pănâ când aceasta apare.
-7. Pentru a vedea mesajele Suricata, deschideți un nou terminal în paralel în același folder, și rulați comanda `tail -f ids/logs/fast.log`. În momentul n care se detectează o activitate suspectă, va apăarea un nou mesaj în acest fișier de log-uri. Puteți să păstrați terminalul cu procesul deschis în paralel pentru a vedea modul în care mesajele apar în timp real, sau să consultați fișierul de log-uri oricând folosind aceeași comandă.
+7. Pentru a vedea mesajele Suricata, deschideți un nou terminal în paralel în același folder, și rulați comanda `tail -f ids/logs/fast.log`. În momentul în care se detectează o activitate suspectă, va apărea un nou mesaj în acest fișier de log-uri. Puteți să păstrați terminalul cu procesul deschis în paralel pentru a vedea modul în care mesajele apar în timp real, sau să consultați fișierul de log-uri oricând folosind aceeași comandă.
 8. Acum puteți accesa container-ul atacatorului, utilizând comanda `sudo docker exec -it attacker_node /bin/bash`.
 9. Mai apoi, puteți folosi jurnalul atacatorului pentru a vedea pașii necesari lansării atacului!
 10. Pentru a închide containerele, utilizați comanda `sudo docker-compose down`.
